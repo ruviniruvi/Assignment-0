@@ -1,6 +1,12 @@
 function countOfAllBooleansAndStrings(arr) {
   // Insert code here;
-  var count ;
+  var i=0;
+  for (objects in arr) {
+    if (typeof arr[objects] === "boolean" || typeof arr[objects]==="string") {
+       i++;
+    }
+}
+return i;
   
 }
 
